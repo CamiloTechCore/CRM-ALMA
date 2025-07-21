@@ -94,6 +94,21 @@ El proyecto se divide en los siguientes sprints, cada uno con objetivos y entreg
 
 ---
 
-## Cronograma y Progresión Semanal
+---
 
-El proyecto tiene una duración estimada de **10 semanas**, comenzando el lunes 21 de julio de 2025. El siguiente gráfico muestra el porcentaje de avance del proyecto acumulado al final de cada semana.
+## Cronograma del Proyecto
+
+El proyecto tiene una duración estimada de **10 semanas**, comenzando el lunes 21 de julio de 2025.
+
+| Semana | Fechas (2025) | Sprint Correspondiente | Temas Principales |
+| :--- | :--- | :--- | :--- |
+| **Semana 1** | Jul 21 - Jul 25 | **Sprint 0** | Fundación del Proyecto, Configuración de Entornos, Docker. |
+| **Semana 2** | Jul 28 - Ago 1 | **Sprint 1** | Modelo de Datos de Usuarios, Lógica de Autenticación (Backend). |
+| **Semana 3** | Ago 4 - Ago 8 | **Sprint 1** | Interfaz de Login (Frontend), Rutas Protegidas. |
+| **Semana 4** | Ago 11 - Ago 15 | **Sprint 2** | Modelo de Datos de Casos, API de Casos (Backend). |
+| **Semana 5** | Ago 18 - Ago 22 | **Sprint 2** | Visualización de Casos en Tabla (Frontend), Paginación y Filtros. |
+| **Semana 6** | Ago 25 - Ago 29 | **Sprint 3** | Interfaz de Carga Masiva (Frontend), Lógica de Parseo de Datos. |
+| **Semana 7** | Sep 1 - Sep 5 | **Sprint 3** | Lógica de Asignación, API y UI para Métricas del Dashboard. |
+| **Semana 8** | Sep 8 - Sep 12 | **Sprint 4** | Módulo de QA (Backend y Frontend), Configuración de WebSockets. |
+| **Semana 9** | Sep 15 - Sep 19 | **Sprint 4** | Panel de Alertas en Tiempo Real (Frontend). |
+| **Semana 10**| Sep 22 - Sep 26 | **Sprint 5** | Panel de Administración, Pruebas y Despliegue final. |
