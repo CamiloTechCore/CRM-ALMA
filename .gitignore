@@ -1,0 +1,23 @@
+# Entornos virtuales de Python
+/backend/venv/
+__pycache__/
+*.pyc
+
+# Dependencias de Node.js
+/frontend/node_modules/
+/frontend/.next/
+/frontend/out/
+npm-debug.log
+yarn-error.log
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs
+.vscode/
+.idea/
+
+# Archivos de entorno
+.env
+.env*.local

@@ -1,0 +1,27 @@
+# alma-v2/docker-compose.yml
+
+
+services:
+  # Definimos el servicio de la base de datos
+  db:
+    # Usamos la imagen oficial de PostgreSQL versión 15
+    image: postgres:15
+    # Nombre que tendrá el contenedor para identificarlo fácilmente
+    container_name: alma_db
+    # Variables de entorno para configurar la base de datos
+    # IMPORTANTE: En un proyecto real, estas credenciales deben estar en un archivo .env
+    environment:
+      - POSTGRES_USER=almadb_user
+      - POSTGRES_PASSWORD=almadb_password
+      - POSTGRES_DB=almadb
+    # Mapeo de puertos: El puerto 5432 del contenedor se expone al puerto 5432 de tu máquina
+    ports:
+      - "5432:5432"
+    # Volumen de datos: Esto asegura que los datos de la base de datos persistan
+    # incluso si detenemos o eliminamos el contenedor.
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+# Definición del volumen nombrado que usaremos para persistir los datos
+volumes:
+  pgdata:
